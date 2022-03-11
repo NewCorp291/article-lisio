@@ -15,7 +15,7 @@ class database{
         $this->dbname = $dbname;
         $this->dbuser = $dbuser;
         $this->dbport = $dbport;
-        $this->dbpassword = $password;
+        $this->dbpassword = $dbpassword;
     }
 
 
@@ -23,6 +23,8 @@ class database{
 
         try{
             $db = new PDO('mysql:host='.$this->dbhost.';dbname='.$this->dbname, $this->dbuser, $this->dbpassword);
+
+            return $db;
 
         }catch(PDOException $e){
             print("Erreur " . $e->getMessage());
