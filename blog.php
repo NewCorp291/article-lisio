@@ -79,6 +79,8 @@
                     <button type="button" class="btn active btn-primary btn-block" data-tabs="all">Tous les sujets</button>
                     <button type="button" class="btn btn-primary btn-block" data-tabs="accessibility">Accessibilité</button>
                     <button type="button" class="btn btn-primary btn-block" data-tabs="environment">Environnement</button>
+
+                    <a href="/administration.php" class="btn btn-primary btn-block" data-tabs="environment">Administration</a>
                 </div>    
             </div>
         </div>
