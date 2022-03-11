@@ -7,7 +7,7 @@ class database{
     private $dbpassword;
     private $dbport;
     private $dbname;
-    private $dbuser
+    private $dbuser;
     
 
     function __construct(string $dbhost, string $dbuser, string $dbpassword, string $dbport, string $dbname) {
@@ -31,4 +31,4 @@ class database{
     }
 
 
-
+}
