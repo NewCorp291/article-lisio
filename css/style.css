@@ -1,0 +1,96 @@
+.container {
+  overflow: hidden;
+}
+
+.show {
+  display: block;
+}
+
+/*nav*/
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+}
+
+.dropdown-menu a:hover {
+  background: #f4f4f4;
+}
+
+.nav-item:hover {
+  background: #f4f4f4;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+/*Content*/
+.title {
+  text-align: center;
+  text-decoration-color: black;
+  background-repeat: no-repeat;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+#malvoyance {
+  background-image: url("/img/accessibilite/malvoyance2.jpg");
+}
+
+.title h1 {
+  font-size: 75px;
+}
+
+.title p {
+  font-size: 20px;
+}
+
+.content {
+  margin-top: 2.5em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+/*button*/
+.btn-endNav {
+  margin-bottom: 50px;
+}
+
+#btn-menu {
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+#btn-next {
+  float: right;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+
+/*card*/
+.card:hover {
+  background: #f4f4f4;
+  border-radius: 10px;
+  /* L'image est grossie de 25% */
+  -webkit-transform: scale(1.025); /* Safari et Chrome */
+  -moz-transform: scale(1.025); /* Firefox */
+  -ms-transform: scale(1.025); /* Internet Explorer 9 */
+  -o-transform: scale(1.025); /* Opera */
+  transform: scale(1.025);
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.card-link:hover {
+  font-weight: bold;
+}
+
+/*image*/
+.img {
+  width: 200px; /* You can set the dimensions to whatever you want */
+  height: 200px;
+  object-fit: cover;
+}
